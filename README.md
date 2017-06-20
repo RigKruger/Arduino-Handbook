@@ -8,7 +8,9 @@ Collection of Arduino functions and libs
     + Reference - *Just general reffference on the functions*
         * FunctionType
             - FunctionName
+
 When needed Directory shall consist of subdirectory IMG - where all the images will be stored
+
 Proceed...
 
 
