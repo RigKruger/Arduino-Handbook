@@ -18,72 +18,72 @@ Each directory shall contain **listing.md** file which contains listing of all f
 # Data added:
 
 ### Structure
-* setup()
-* loop() 
+* _setup()_
+* _loop()_ 
 
 #### Control Structures
-* if
-* if...else
-* for
-* switch case
-* while
-* do... while
-* break
-* continue
-* return
-* goto 
+* _if_
+* _if...else_
+* _for_
+* _switch case_
+* _while_
+* _do... while_
+* _break_
+* _continue_
+* _return_
+* _goto_
 
 #### Further Syntax
-* ; (semicolon)
-* {} (curly braces)
-* // (single line comment)
-* /* */ (multi-line comment)
-* #define
-* #include 
+* _; semicolon_
+* _{} curly braces_
+* _// single line comment_
+* _/* */ multi-line comment_
+* _#define_
+* _#include_ 
 
 #### Arithmetic Operators
-* = (assignment operator)
-* +  (addition)
-* - (subtraction)
-* * (multiplication)
-* / (division)
-* % (modulo) 
+* _= assignment operator_
+* _+ addition_
+* _- subtraction_
+* _* multiplication_
+* _/ division_
+* _% modulo_
 
 #### Comparison Operators
-* == (equal to)
-* != (not equal to)
-* < (less than)
-* > (greater than)
-* <= (less than or equal to)
-* >= (greater than or equal to) 
+* _== equal to_
+* _!= not equal to_
+* _< less than_
+* _> greater than_
+* _<= less than or equal to_
+* _>= greater than or equal to_
 
 #### Boolean Operators
-* && (and)
-* || (or)
-* ! (not) 
+* _&& and_
+* _|| or_
+* _! not_
 
 #### Pointer Access Operators
-* * dereference operator
-* & reference operator 
+* _* dereference operator_
+* _& reference operator_ 
 
 #### Bitwise Operators
-* & (bitwise and)
-* | (bitwise or)
-* ^ (bitwise xor)
-* ~ (bitwise not)
-* << (bitshift left)
-* >> (bitshift right) 
+* _& bitwise and_
+* _| bitwise or_
+* _^ bitwise xor_
+* _~ bitwise not_
+* _<< bitshift left_
+* _>> bitshift right_
 
 #### Compound Operators
-* ++ (increment)
-* -- (decrement)
-* += (compound addition)
-* -= (compound subtraction)
-* *= (compound multiplication)
-* /= (compound division)
-* %= (compound modulo)
-* &= (compound bitwise and)
-* |= (compound bitwise or) 
+* _++ increment_
+* _-- decrement_
+* _+= compound addition_
+* _-= compound subtraction_
+* _*= compound multiplication_
+* _/= compound division_
+* _%= compound modulo_
+* _&= compound bitwise and_
+* _|= compound bitwise or_
 
 Proceed...
 
