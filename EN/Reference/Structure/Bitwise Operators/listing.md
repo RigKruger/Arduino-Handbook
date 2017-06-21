@@ -1,0 +1,6 @@
+* [& bitwise and](bitwise_and.md)  
+* [| bitwise or](bitwise_or.md)  
+* [^ bitwise xor](bitwise_xor.md)  
+* [~ bitwise not](bitwise_not.md)  
+* [<< bitshift left](bitshift.md)  
+* [>> bitshift right](bitshift.md)   
