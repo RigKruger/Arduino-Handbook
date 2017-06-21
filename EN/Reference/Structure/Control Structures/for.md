@@ -1,7 +1,8 @@
-#for statements
-##Description
+# for statements
 
-The ** statement is used to repeat a block of statements enclosed in curly braces. An increment counter is usually used to increment and terminate the loop. The ** statement is useful for any repetitive operation, and is often used in combination with arrays to operate on collections of data/pins.
+## Description
+
+The **for** statement is used to repeat a block of statements enclosed in curly braces. An increment counter is usually used to increment and terminate the loop. The **for** statement is useful for any repetitive operation, and is often used in combination with arrays to operate on collections of data/pins.
 
 There are three parts to the for loop header:
 
@@ -17,7 +18,7 @@ for (initialization; condition; increment) {
 
 The **initialization** happens first and exactly once. Each time through the loop, the **condition** is tested; if it's true, the statement block, and the **increment** is executed, then the **condition** is tested again. When the **condition** becomes false, the loop ends.
 
-##Example
+## Example
 
 ```C++
 // Dim an LED using a PWM pin
@@ -36,7 +37,7 @@ void loop()
    } 
 }
 ```
-##Coding Tips
+## Coding Tips
 
 The C **for** loop is much more flexible than **for** loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements **for** initialization, condition, and increment can be any valid C statements with unrelated variables, and use any C datatypes including floats. These types of unusual **for** statements may provide solutions to some rare programming problems.
 
