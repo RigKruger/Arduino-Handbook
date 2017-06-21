@@ -31,7 +31,7 @@ myByte & B11111111 = myByte;
 Note: because we are dealing with bits in a bitwise operator - it is convenient to use the binary formatter with constants. The numbers are still the same value in other representations, they are just not as easy to understand. Also, B00000000 is shown for clarity, but zero in any number format is zero (hmmm something philosophical there?)
 
 Consequently - to clear (set to zero) bits 0 & 1 of a variable, while leaving the rest of the variable unchanged, use the compound bitwise AND operator (&=) with the constant B11111100
-```
+```C++
    1  0  1  0  1  0  1  0    variable  
    1  1  1  1  1  1  0  0    mask
    ----------------------
@@ -42,7 +42,7 @@ Consequently - to clear (set to zero) bits 0 & 1 of a variable, while leaving th
   
 ```
 Here is the same representation with the variable's bits replaced with the symbol x
-```
+```C++
     x  x  x  x  x  x  x  x    variable
     1  1  1  1  1  1  0  0    mask
     ----------------------
@@ -52,7 +52,7 @@ Here is the same representation with the variable's bits replaced with the symbo
             bits cleared
 ```
 So if:
-```
+```C++
 myByte =  B10101010;
 
 myByte &= B11111100 == B10101000;

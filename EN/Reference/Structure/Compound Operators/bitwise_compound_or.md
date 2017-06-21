@@ -15,22 +15,22 @@ y: an integer constant or char, int, or long
 ## Example:
 
 First, a review of the Bitwise OR (|) operator
-```
+```C++
    0  0  1  1    operand1
    0  1  0  1    operand2
    ----------
    0  1  1  1    (operand1 | operand2) - returned result
 ```
 Bits that are "bitwise ORed" with 0 are unchanged, so if myByte is a byte variable,
-```
+```C++
 myByte | B00000000 = myByte;
 ```
 Bits that are "bitwise ORed" with 1 are set to 1 so:
-```
+```C++
 myByte | B11111111 = B11111111;
 ```
 Consequently - to set bits 0 & 1 of a variable, while leaving the rest of the variable unchanged, use the compound bitwise OR operator (|=) with the constant B00000011
-```
+```C++
    1  0  1  0  1  0  1  0    variable
    0  0  0  0  0  0  1  1    mask
    ----------------------
@@ -41,7 +41,7 @@ Consequently - to set bits 0 & 1 of a variable, while leaving the rest of the va
 ```
 
 Here is the same representation with the variables bits replaced with the symbol x
-```
+```C++
    x  x  x  x  x  x  x  x    variable
    0  0  0  0  0  0  1  1    mask
    ----------------------
@@ -51,7 +51,7 @@ Here is the same representation with the variables bits replaced with the symbol
                      bits set
 ```
 So if:
-```
+```C++
 myByte =  B10101010;
 
 myByte |= B00000011 == B10101011;
