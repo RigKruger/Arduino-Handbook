@@ -1,10 +1,10 @@
-* if  
-* if...else  
-* for  
-* switch case  
-* while  
-* do... while  
-* break  
-* continue  
-* return  
-* goto  
+* [if](if.md)    
+* [if...else](if_else.md)    
+* [for](for.md)    
+* [switch case](switch_case.md)    
+* [while](while.md)    
+* [do... while](do_while.md)    
+* [break](break.md)    
+* [continue](continue.md)    
+* [return](return.md)    
+* [goto](goto.md)    

@@ -1,2 +1,2 @@
-* setup()
-* loop()
+* [setup()](setup.md)
+* [loop()](setup.md)
