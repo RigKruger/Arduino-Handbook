@@ -17,8 +17,9 @@ Each directory shall contain **listing.md** file which contains listing of all f
 
 # Data added:
 
-|| ### Structure || ### Variables || ### Functions ||
-| * _setup()_
+### Structure
+
+* _setup()_
 * _loop()_ 
 
 #### Control Structures
@@ -84,9 +85,7 @@ Each directory shall contain **listing.md** file which contains listing of all f
 * _%= compound modulo_
 * _&= compound bitwise and_
 * _|= compound bitwise or_
-|
-| |
-| |
+
 
 Proceed...
 
